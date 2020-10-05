@@ -43,7 +43,6 @@
 #include <termios.h>
 #include <fnmatch.h>
 #include <assert.h>
-#include <pacparser.h>
 #ifdef __CYGWIN__
 #include <windows.h>
 #endif
