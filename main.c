@@ -130,7 +130,7 @@ plist_t noproxy_list = NULL;			/* proxy_thread() */
 #ifdef ENABLE_PACPARSER
 /* 1 = Pacparser engine is initialized and in use. */
 int pacparser_initialized = 0;
-
+char *strsep(char **__stringp, const char *__delim);
 /*
  * Pacparser Mutex
  */
